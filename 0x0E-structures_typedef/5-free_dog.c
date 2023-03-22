@@ -1,12 +1,13 @@
-#include <stdlib>
+#include <stdlib.h>
 #include "dog.h"
 
 /**
- * free_dog - frees the dog
+ * free_dog - frees dogs
+ * @d: pointer to dog to free
  *
- * return: 0
+ * Return: void
  */
-void free_dog(dog_t *d);
+void free_dog(dog_t *d)
 {
 	if (d)
 	{
