@@ -2,13 +2,15 @@
 
 /**
  * main - print the number of arguments passed to it
+ *@argc - arguments count
+ *@argv - arguments passed to the main function
  *
  * Return: 0
  */
-int main(int agrc, char *agrv[])
+int main(int agrc, char **agrv)
 {
-	argc;
-	*argv;
-	printf("0%d\n", argc);
+	(void)argc;
+
+	printf("%d\n", argc - 1);
 	return (0);
 }
