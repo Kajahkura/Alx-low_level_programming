@@ -2,7 +2,7 @@
 
 /**
  * main - print the number of arguments passed to it
- *@argc - arguments count
+ *@argc - arguments count in main
  *@argv - arguments passed to the main function
  *
  * Return: 0
