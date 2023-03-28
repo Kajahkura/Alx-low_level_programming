@@ -2,6 +2,8 @@
 
 /**
  * main - print the name of the program
+ *@argc: the arguement count
+ *@argv: arguement vector
  *
  * Return: 0
  */
