@@ -1,25 +1,26 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
- * main - write a program that multiplies two numbers
+ * main - multiplies two numbers.
  * @argc: argument count
- * @argv: arguement vector
+ * @argv: arguments
  *
  * Return: 0
  */
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-	int i, y;
+	int x, y;
 
 	if (argc < 3)
 	{
 		printf("Error\n");
-		return 1;
+		return (1);
 	}
 
-	i = atoi(argv[1]);
+	x = atoi(argv[1]);
 	y = atoi(argv[2]);
-	printf("%d\n", i*y);
+	printf("%d\n", x * y);
 
-	return 0;
+	return (0);
 }
